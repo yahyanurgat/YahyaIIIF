@@ -1,0 +1,87 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://yahyanurgat.github.io/YahyaIIIF/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Perspectives of the Meccan Haram",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Photographs of the holy sanctuary at Mecca",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "British Library: India Office Records and Private Papers",
+  "sequences" : [ {
+    "@id" : "http://aa3241ed-d0c7-49bf-9e72-9156bf6bc2c6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://d896495c-21a9-4415-906f-2d43acaf9f26",
+      "@type" : "sc:Canvas",
+      "label" : "'Die Moschee'. [‎4r] (1/1)",
+      "height" : 4664,
+      "width" : 6501,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://42b46b35-a147-4841-923b-4deb4bef71f8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.qdl.qa/iiif/images/81055/vdc_100022547736.0x000001/1781.b.6_0021.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.qdl.qa/iiif/images/81055/vdc_100022547736.0x000001/1781.b.6_0021.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level1", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 3000,
+              "maxHeight" : 3000
+            } ]
+          },
+          "height" : 4664,
+          "width" : 6501
+        },
+        "on" : "http://d896495c-21a9-4415-906f-2d43acaf9f26"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2c28c7c6-ad09-4d47-bcb0-87afb141faaa",
+      "@type" : "sc:Canvas",
+      "label" : "'Zweite Ansicht der Stadt Mekka über die nordwestliche (rechts) und die südwestliche Seite (links) der Moschee hinaus'.",
+      "height" : 4502,
+      "width" : 5520,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://91500bfa-5314-4af3-b922-2faab57672ef",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.qdl.qa/iiif/images/81055/vdc_100022564627.0x000001/X463_0024.jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.qdl.qa/iiif/images/81055/vdc_100022564627.0x000001/X463_0024.jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level1", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 3000,
+              "maxHeight" : 3000
+            } ]
+          },
+          "height" : 4502,
+          "width" : 5520
+        },
+        "on" : "http://2c28c7c6-ad09-4d47-bcb0-87afb141faaa"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
