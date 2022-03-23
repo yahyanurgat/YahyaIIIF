@@ -1,0 +1,13 @@
+{
+  "id" : "https://yahyanurgat.github.io/YahyaIIIF/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in yahyanurgat/YahyaIIIF project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://yahyanurgat.github.io/YahyaIIIF/manifests/manifest2.json",
+    "label" : "Perspectives of the Meccan Haram"
+  } ]
+}
